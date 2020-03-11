@@ -31,21 +31,31 @@ nav{
     max-height: 75px;
     height: 75px;
     text-align: center;
+    position: fixed;
+    width: 100%;
 }
 
 
 nav ul li{
     list-style: none;
-    color: #fff;
+   
     display: inline-block;
-    width: auto;
-    border-bottom: #005FA7 solid 2px;
+    width: auto;    
     text-align: center;
     margin-top: 25px;
     margin-right: 5%;
     font-family: 'Raleway-Bold';
     font-size: 15px;
     cursor: pointer;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.active-link{
+    border-bottom: #005FA7 solid 2px;
 }
 
 
@@ -56,8 +66,8 @@ nav ul li{
     background-repeat: no-repeat;
     height: auto;
     background-size: contain;
-    background-position: 0px -99px;
-    padding-top: 50px;
+    background-position: 0px -24px;
+    padding-top: 100px;
     
 }
 

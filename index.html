@@ -5,15 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saddleback Mountain</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
         <ul>
-            <li>Saddleback Mountain</li>
-            <li>Season Passes</li>
-            <li>Latest Updates</li>
-            <li>Press Release</li>
-            <li>Contact Us</li>
+            <li >
+                <a href="#home" class="active-link menu-link" id="homeLink">Saddleback Mountain</a>
+            </li>
+            <li>
+                <a href="#seasonPasses" class="menu-link" id="seasonPassesLink">Season Passes</a>
+            </li>
+            <li>
+                <a href="#latestUpdates" class="menu-link" id="latestUpdatesLink">Latest Updates</a>
+            </li>
+            <li>
+                <a href="#pressRelease" class="menu-link" id="pressReleaseLink">Press Release</a>
+            </li>
+            <li>
+                <a href="#contactUs" class="menu-link" id="contactUsLink">Contact Us</a>
+            </li>            
         </ul>
     </nav>
     <!-- <div class="radius-shape">
@@ -21,7 +35,7 @@
             <h3>Hello world</h3>
         </div>
     </div> -->
-    <div class="landing-page">
+    <div class="landing-page" id="home"> 
         <img class="logo" src="./img/logo.png" alt="">
         <h1 class="main-title">It's Our Time Again</h1>
         <span class="bottom-line-span"></span>
@@ -34,7 +48,8 @@
                 We’ll have brand new chairlifts, significantly improved snowmaking, a renovated base lodge and ticket prices aimed at making the Saddleback experience more accessible than ever.<br/> <br/>Here’s what won’t change: A friendly, welcoming vibe, a wide diversity of terrain for all abilities, and a whole lot of love for our community. We can’t wait to ski and ride with you again.
             </p>
         </div>
-        <div class="secondary-hero">
+    </div>
+        <div class="secondary-hero" id="seasonPasses">
             <div class="circle-top"></div>
             <div class="secondary-titles-container">
                 <h3>Saddle up with a</h3>   
@@ -77,7 +92,7 @@
             <a class="buy-now">Buy Now</a>
         </div>
          
-        <div class="updates-section">
+        <div class="updates-section" id="latestUpdates">
             <div class="circle-top-dark"></div>
             <div class="padding-div">               
                 <h1 class="latest-update-title">Latest Updates</h1>
@@ -120,7 +135,7 @@
         </div>
 
        
-        <div class="press-release-section">
+        <div class="press-release-section" id="pressRelease">
             <h1 class="section-title">Press Release</h1>
             <span class="bottom-line-span"></span>
             <h3 class="section-subtitle">Saddleback Mountain Ski Resort comes out of a 5 year hibernation announcing purcahse of high speed lift that will be the cornerstone of the mountain’s future</h3>
@@ -141,7 +156,7 @@
         <footer>
             <div class="circle-top"></div>
             <img src="./img/logo.png">
-            <div class="people">
+            <div class="people"id="contactUs">
                 <div class="person">
                     <p class="name">Andy Shepard</p>
                     <p class="">General Manager</p>
@@ -155,9 +170,9 @@
             </div>
             <p class="copy-legend">© Saddleback Mountain 2020. All rights reserved. Privacy Policy.</p>
         </footer>
-    </div>
+   
 
 
-
+<script src="./js/main.js"></script>
 </body>
 </html>
