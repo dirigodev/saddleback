@@ -277,7 +277,7 @@ nav ul li a{
     width: 100%;
     background-image: url('../img/curved-top-inverted.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 102% 84px;
     
 }
 
@@ -563,6 +563,8 @@ footer img{
         width: 35%;
         margin: auto;
         border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 
