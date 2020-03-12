@@ -151,6 +151,8 @@ nav ul li a{
     font-family: 'Raleway-Bold';
     text-align: center;
     font-size: 70px;
+    margin-bottom: 0px;
+    margin-top: 5px;
 }
 
 .secondary-hero .secondary-titles-container h3{
@@ -158,6 +160,7 @@ nav ul li a{
     font-family: 'Raleway-Bold';
     text-align: center;
     font-size: 40px;
+    margin-bottom: 0px;
 }
 .circle-top{
     background-image: url('../img/curved-top.png');
@@ -270,9 +273,9 @@ nav ul li a{
 
 }
 .circle-top-dark{
-    height: 85px;
+    height: 107px;
     width: 100%;
-    /* background-image: url('../img/curved-bottom-dark-inverted.png'); */
+    background-image: url('../img/curved-top-inverted.png');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -293,15 +296,14 @@ nav ul li a{
 
 .updates-text{
     font-size: 17px;
-    color:#000000 ;
-    text-align: center;
-    line-height: 28px;
-    max-width: 600px;
+    color:#000000 ;    
     margin: auto;
     margin-top: 30px;
     margin-bottom: 20px;
     display: block;
-    
+    text-align: center;
+    line-height: 40px;
+    max-width: 527px;
     font-family: 'Raleway-Regular';
 }
 
@@ -319,7 +321,7 @@ nav ul li a{
 }
 
 .list-item .description-item{
-    margin-left: 10px;
+    margin-left: 30px;
     text-align: left;
     font-size: 15px;
     font-family: 'Raleway-Regular';
@@ -348,6 +350,7 @@ nav ul li a{
     background-image: url('../img/pdf.png');
     display: inline-block;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .curved-bottom-light{
@@ -361,7 +364,7 @@ nav ul li a{
 
 .press-release-section{
     background-color: #004579;    
-    padding: 0px 250px 200px 250px;
+    padding: 0px 250px 80px 250px;
     color: #fff;
     margin-top: -1px;
     padding-top: 28px
@@ -395,6 +398,10 @@ nav ul li a{
     font-size: 15px;
 }
 
+.press-release-text{
+    line-height: 24px;
+}
+
 footer{
     background-color: #002541;
     padding-bottom: 50px;
@@ -424,12 +431,20 @@ footer img{
     width: 50%;
 }
 
+.person:nth-child(1){
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+}
 .person p{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 .person .name{
     font-family: 'Raleway-Bold';
+}
+
+.mobile-line{
+    display: none;
 }
 
 .copy-legend{
@@ -537,6 +552,17 @@ footer img{
     .person{
         width: 100%;
         
+    }
+
+    .person:nth-child(1){
+        border-right: none;       
+    }
+
+    .mobile-line{
+        display: block;
+        width: 35%;
+        margin: auto;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.2);
     }
 }
 

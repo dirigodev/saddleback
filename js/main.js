@@ -6,7 +6,7 @@ $(document).ready(function(){
         var toSectionId = $(this).attr('href');
         $('html, body').animate({ scrollTop: $(toSectionId).offset().top }, 'slow');
     });
-    console.log({home: $('#home').offset(), season: $('#seasonPasses').offset()});
+    //console.log({home: $('#home').offset(), season: $('#seasonPasses').offset()});
 });
 
 
@@ -15,7 +15,6 @@ $(document).ready(function(){
 
 function selectActiveLink(listOfSections, scrollAmount){
     for(var i = 0;  i<listOfSections.length; i++){
-        debugger;
         var section = $(listOfSections[i]);
         if(scrollAmount >= section.offset().top - 200 && scrollAmount  <= (section.offset().top + section.height() + 450 )){
             $('.active-link').removeClass('active-link');
