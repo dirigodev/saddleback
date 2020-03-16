@@ -82,7 +82,7 @@ nav ul li a{
     display: block;
     color: #fff;
     margin: auto;
-    margin-top: 300px;
+    margin-top: 470px;
     font-family: 'Raleway-Bold';
     font-size: 70px;
     text-align: center;
@@ -192,7 +192,6 @@ nav ul li a{
 .pricing-section{
 
     background: #002541;
-    padding-top: 45px;
     margin-top: -5px; /*fixing image issue*/
     padding-bottom: 45px;
 
@@ -255,6 +254,7 @@ nav ul li a{
     display: block;
     margin: auto;
     margin-top: 20px;
+    line-height: 24px;
 }
 
 .buy-now{
@@ -378,7 +378,7 @@ nav ul li a{
     background-color: #004579;    
     padding: 0px 250px 120px 250px;
     color: #fff;
-    margin-top: -1px;
+    margin-top: -5px;
     padding-top: 85px;
 }
 
@@ -420,12 +420,11 @@ footer{
     padding-bottom: 50px;
 }
 
-footer img{
+.logo-footer{
     width: 120px;
     margin: auto;
     display: block;
     margin-bottom: 50px;
-    margin-top: 55px;
 }
 
 .people{
