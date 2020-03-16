@@ -532,6 +532,10 @@ footer{
         height: 211px;
     }
 
+    .pricing-section{
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
     .pricing-text{
         width: 80%;
         
@@ -545,7 +549,7 @@ footer{
         width: 80%;
     }
     .updates-section .padding-div{
-        padding: 45px 50px 45px 50px;
+        padding: 45px 50px 35px 50px;
     }
 
     .curved-bottom-light{
@@ -593,6 +597,11 @@ footer{
 
     .press-release-section p{
         line-height: 22px;
+    }
+
+    .logo-footer{
+        margin-top: 30px;
+
     }
     .people{
         width: 80%;
