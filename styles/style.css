@@ -68,7 +68,7 @@ nav ul li a{
     background-size: contain;
     background-position: 0px -24px;
     padding-top: 100px;
-    
+    padding-bottom: 120px;
 }
 
 .landing-page .logo{
@@ -123,6 +123,7 @@ nav ul li a{
     margin-top: 50px;
     border: 2px solid rgba(255, 255, 255, 0.3);
     max-width: 80%;
+    
 }
 
 .landing-page .resort-desc{
@@ -136,7 +137,6 @@ nav ul li a{
     line-height: 32px;
     margin-top: 40px;
     max-width: 80%;
-    margin-bottom: 150px;
     
 }
 .secondary-hero{
@@ -178,16 +178,23 @@ nav ul li a{
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 84px;
-    margin-top: 150px;
+    margin-top: 151px;
+}
+.circle-img{
+    width: 100%;
+    margin-top: -1px;
 }
 
+.secondary-titles-container{
+    margin-bottom: 120px;
+}
 
 .pricing-section{
 
     background: #002541;
-    padding-top: 70px;
-    margin-top: -1px; /*fixing image issue*/
-    padding-bottom: 50px;
+    padding-top: 45px;
+    margin-top: -5px; /*fixing image issue*/
+    padding-bottom: 45px;
 
 }
 .pricing-text{
@@ -198,7 +205,7 @@ nav ul li a{
     margin: auto;
     display: block;
     font-family: 'Raleway-Regular';
-  
+    line-height: 32px;
 
 }
 
@@ -273,7 +280,7 @@ nav ul li a{
 
 }
 .circle-top-dark{
-    height: 107px;
+    height: 85px;
     width: 100%;
     background-image: url('../img/curved-top-inverted.png');
     background-repeat: no-repeat;
@@ -286,12 +293,17 @@ nav ul li a{
     height: 10px;
 }
 
+.padding-div{
+    padding-top: 120px;
+    padding-bottom: 120px;
 
+}
 .latest-update-title{
     color: #004F87;
     font-family: 'Raleway-Bold';
     font-size: 40px;
     text-align: center;
+    margin-top: 0px;
 }
 
 .updates-text{
@@ -302,7 +314,7 @@ nav ul li a{
     margin-bottom: 20px;
     display: block;
     text-align: center;
-    line-height: 40px;
+    line-height: 32px;
     max-width: 527px;
     font-family: 'Raleway-Regular';
 }
@@ -341,7 +353,7 @@ nav ul li a{
 }
 
 .list-item img{
-    width: 50%;
+    /* width: 50%; */
 }
 
 .pdf-icon{
@@ -364,16 +376,17 @@ nav ul li a{
 
 .press-release-section{
     background-color: #004579;    
-    padding: 0px 250px 80px 250px;
+    padding: 0px 250px 120px 250px;
     color: #fff;
     margin-top: -1px;
-    padding-top: 28px
+    padding-top: 85px;
 }
 
 .press-release-section .section-title{
     
     font-size: 40px;
     font-family: 'Raleway-Bold';
+    margin-top: 0px;
 
 }
 
@@ -412,13 +425,14 @@ footer img{
     margin: auto;
     display: block;
     margin-bottom: 50px;
+    margin-top: 55px;
 }
 
 .people{
     display: flex;    
     width: 800px;
     font-family: 'Raleway-Regular';
-    font-size: 17px;
+    font-size: 15px;
     color: #fff;
     margin: auto;
     text-align: center;
@@ -443,6 +457,10 @@ footer img{
     font-family: 'Raleway-Bold';
 }
 
+.person a{
+    color: #fff;
+    text-decoration: none;
+}
 .mobile-line{
     display: none;
 }
@@ -469,6 +487,7 @@ footer img{
         background-size: contain;
         padding-top: 10px;
         background-position: initial;
+        padding-bottom: 65px;
     }
     .landing-page .logo{
         width: 100px;
@@ -481,7 +500,13 @@ footer img{
         max-width: 220px;
     }
 
-    
+    .secondary-hero .secondary-titles-container h1{
+        font-size: 40px;
+    }
+
+    .secondary-hero .secondary-titles-container h3{
+        font-size: 25px;
+    }
 
     .landing-page span{
         height: 13px;
@@ -510,6 +535,7 @@ footer img{
 
     .pricing-text{
         width: 80%;
+        
     }
 
     .pricing-table{
@@ -520,16 +546,25 @@ footer img{
         width: 80%;
     }
     .updates-section .padding-div{
-        padding: 0px 50px 0px 50px;
+        padding: 45px 50px 45px 50px;
     }
 
     .curved-bottom-light{
-        background-size: 100% 84px;
+        background-size: contain;
+        height: 71px;
+    }
+
+    .circle-top{
+        background-size: contain;
     }
     
+    .circle-bottom{
+        background-size: contain;
+        height: 4vh;
+    }
     .press-release-section{
-        padding: 0px 50px 0px 50px;
-        margin-top: -28px;
+        padding: 45px 50px 45px 50px;
+        margin-top: -5px;
     }
     .listing-container{
         width: 100%;
@@ -544,6 +579,22 @@ footer img{
         width: 100%;
     }
 
+    .latest-update-title{
+        font-size: 25px;
+    }
+
+    .press-release-section .section-title{
+        font-size: 25px;
+    }
+
+    .press-release-section .section-subtitle{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .press-release-section p{
+        line-height: 22px;
+    }
     .people{
         width: 80%;
         display: block;
