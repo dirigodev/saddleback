@@ -218,6 +218,14 @@ nav ul li a{
 
 }
 
+.pricing-subtitlte{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Raleway-Bold';
+    text-align: center;
+    margin-top: 20px;
+}
+
 .pricing-table{
     width: 600px;
     color:#fff;
