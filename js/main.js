@@ -21,7 +21,7 @@ function selectActiveLink(listOfSections, scrollAmount){
             $(listOfSections[i]+"Link").addClass('active-link');
         }
 
-        if(scrollAmount >= 5000){
+        if(scrollAmount >= 5500){
             $('.active-link').removeClass('active-link');
             $('#contactUsLink').addClass('active-link');
         }
