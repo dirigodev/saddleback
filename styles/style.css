@@ -482,6 +482,7 @@ footer{
 
 .buy-now{
     cursor: pointer;
+    text-decoration: none;
 }
 
 
