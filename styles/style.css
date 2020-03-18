@@ -361,7 +361,8 @@ nav ul li a{
 }
 
 .list-item img{
-    /* width: 50%; */
+    border: 2px solid rgba(179, 199, 215, 1);
+    padding: 4px;
 }
 
 .pdf-icon{
@@ -592,6 +593,7 @@ footer{
 
     .list-item img{
         width: 100%;
+       
     }
 
     .latest-update-title{
