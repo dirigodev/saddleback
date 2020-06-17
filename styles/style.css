@@ -1,32 +1,30 @@
-body, ul, div{
+body, ul, div {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     background-color: #004579;
 }
 
-@font-face{
+@font-face {
     font-family: "Raleway-Regular";
     src: url('./fonts/raleway/Raleway-Regular.ttf');
-
 }
 
-@font-face{
+@font-face {
     font-family: "Raleway-Bold";
     src: url('./fonts/raleway/Raleway-Bold.ttf');
-
 }
 
 
-@font-face{
+@font-face {
     font-family: "Raleway-Italic";
     src: url('./fonts/raleway/Raleway-Italic.ttf');
 }
 
 
-nav{
+nav {
     background-color: #002541;
     max-height: 75px;
     height: 75px;
@@ -36,31 +34,30 @@ nav{
 }
 
 
-nav ul li{
-    list-style: none;
-   
-    display: inline-block;
-    width: auto;    
-    text-align: center;
-    margin-top: 25px;
-    margin-right: 5%;
-    font-family: 'Raleway-Bold';
-    font-size: 15px;
-    cursor: pointer;
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        width: auto;
+        text-align: center;
+        margin-top: 25px;
+        margin-right: 5%;
+        font-family: 'Raleway-Bold';
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+.active-link {
+    /* border-bottom: #005FA7 solid 2px;*/
 }
 
-nav ul li a{
-    color: #fff;
-    text-decoration: none;
-}
-
-.active-link{
-    border-bottom: #005FA7 solid 2px;
-}
 
 
-
-.landing-page{
+.landing-page {
     width: 100%;
     background-image: url('../img/primary-hero-pic.png');
     background-repeat: no-repeat;
@@ -71,32 +68,31 @@ nav ul li a{
     padding-bottom: 120px;
 }
 
-.landing-page .logo{
-    display: block;
-    margin: auto;
-    width: 150px;
-    
-}
+    .landing-page .logo {
+        display: block;
+        margin: auto;
+        width: 150px;
+    }
 
-.landing-page .main-title{
-    display: block;
-    color: #fff;
-    margin: auto;
-    margin-top: 370px;
-    font-family: 'Raleway-Bold';
-    font-size: 70px;
-    text-align: center;
-}
-.bottom-line-span{
+    .landing-page .main-title {
+        display: block;
+        color: #fff;
+        margin: auto;
+        margin-top: 370px;
+        font-family: 'Raleway-Bold';
+        font-size: 70px;
+        text-align: center;
+    }
+
+.bottom-line-span {
     width: 150px;
     border-bottom: solid #fff 2px;
     display: block;
     margin: auto;
     height: 20px;
-
 }
 
-.landing-page .featured-text{
+.landing-page .featured-text {
     text-align: center;
     color: #fff;
     font-family: 'Raleway-Bold';
@@ -106,16 +102,16 @@ nav ul li a{
     display: block;
     line-height: 32px;
     margin-top: 40px;
-    
 }
 
 
 
 
-.featured-text-container{
+.featured-text-container {
     background: linear-gradient(transparent, #004579);
 }
-.landing-page .video-container{    
+
+.landing-page .video-container {
     width: 770px;
     display: block;
     margin: auto;
@@ -123,10 +119,9 @@ nav ul li a{
     margin-top: 50px;
     border: 2px solid rgba(255, 255, 255, 0.3);
     max-width: 80%;
-    
 }
 
-.landing-page .resort-desc{
+.landing-page .resort-desc {
     text-align: center;
     color: #fff;
     font-family: 'Raleway-Regular';
@@ -137,32 +132,33 @@ nav ul li a{
     line-height: 32px;
     margin-top: 40px;
     max-width: 80%;
-    
 }
-.secondary-hero{
+
+.secondary-hero {
     background-image: url('../img/secondary-hero.png');
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-
-}
-.secondary-hero .secondary-titles-container h1{
-    color: #fff;
-    font-family: 'Raleway-Bold';
-    text-align: center;
-    font-size: 70px;
-    margin-bottom: 0px;
-    margin-top: 5px;
 }
 
-.secondary-hero .secondary-titles-container h3{
-    color: #fff;
-    font-family: 'Raleway-Bold';
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 0px;
-}
-.circle-top{
+    .secondary-hero .secondary-titles-container h1 {
+        color: #fff;
+        font-family: 'Raleway-Bold';
+        text-align: center;
+        font-size: 70px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+
+    .secondary-hero .secondary-titles-container h3 {
+        color: #fff;
+        font-family: 'Raleway-Bold';
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+
+.circle-top {
     background-image: url('../img/curved-top.png');
     height: 85px;
     width: 100%;
@@ -171,7 +167,7 @@ nav ul li a{
     background-size: 100% 84px;
 }
 
-.circle-bottom{
+.circle-bottom {
     background-image: url('../img/curved-bottom-dark.png');
     height: 85px;
     width: 100%;
@@ -180,45 +176,42 @@ nav ul li a{
     background-size: 100% 84px;
     margin-top: 151px;
 }
-.circle-img{
+
+.circle-img {
     width: 100%;
     margin-top: -1px;
 }
 
-.secondary-titles-container{
+.secondary-titles-container {
     margin-bottom: 120px;
 }
 
-.pricing-section{
-
+.pricing-section {
     background: #002541;
     margin-top: -5px; /*fixing image issue*/
     padding-bottom: 45px;
-
 }
-.pricing-text{
-    
-    color: #fff;    
+
+.pricing-text {
+    color: #fff;
     font-size: 17px;
     width: 600px;
     margin: auto;
     display: block;
     font-family: 'Raleway-Regular';
     line-height: 32px;
-
 }
 
-.pricing-title{
+.pricing-title {
     font-size: 20px;
     color: #fff;
     font-family: 'Raleway-Bold';
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
-
 }
 
-.pricing-subtitlte{
+.pricing-subtitlte {
     font-size: 20px;
     color: #fff;
     font-family: 'Raleway-Bold';
@@ -226,35 +219,34 @@ nav ul li a{
     margin-top: 20px;
 }
 
-.pricing-table{
+.pricing-table {
     width: 600px;
-    color:#fff;
+    color: #fff;
     font-size: 17px;
     border-collapse: collapse;
     margin: auto;
 }
 
-.pricing-table td{    
-    padding: 15px;
-    
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    border-left: none;
-    border-right: none;
+    .pricing-table td {
+        padding: 15px;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-left: none;
+        border-right: none;
+    }
 
-    
-}
-.item{
+.item {
     width: 50%;
     font-family: 'Raleway-Regular';
     width: 50%;
 }
-.price{
-    font-family: 'Raleway-Bold';    
+
+.price {
+    font-family: 'Raleway-Bold';
     width: 50%;
     text-align: right;
 }
 
-.pricing-legend{
+.pricing-legend {
     font-size: 13px;
     font-family: 'Raleway-Italic';
     width: 600px;
@@ -265,48 +257,63 @@ nav ul li a{
     line-height: 24px;
 }
 
-.buy-now{
+.buy-now {
     font-family: 'Raleway-Bold';
     font-size: 20px;
     background-color: #0F7F3F;
     max-width: 125px;
     max-height: 50px;
     display: block;
-    margin:auto;   
+    margin: auto;
     color: #fff;
     padding: 15px 10px;
     text-align: center;
     margin-top: 50px;
 }
 
+.buy-now-xs {
+    font-family: 'Raleway-Bold';
+    background-color: #0F7F3F;
+    margin: auto;
+    color: #fff;
+    border: none;
+    width: 35%;
+    height: 30px;
+}
+
+.buy-now:hover {
+    background-color: #3e8e41
+}
+
+.buy-now-xs:hover {
+    background-color: #3e8e41
+}
 
 
-.updates-section{
-
+.updates-section {
     background-color: #fff;
     margin-top: -2px;
-
 }
-.circle-top-dark{
+
+.circle-top-dark {
     height: 85px;
     width: 100%;
     background-image: url('../img/curved-top-inverted.png');
     background-repeat: no-repeat;
     background-size: 102% 84px;
-    
 }
 
-.updates-section .bottom-line-span{
+.updates-section .bottom-line-span {
     border-bottom: solid #004F87 2px;
     height: 10px;
 }
 
-.padding-div{
+.padding-div {
     padding-top: 120px;
     padding-bottom: 120px;
-
 }
-.latest-update-title{
+
+.latest-update-title {
     color: #004F87;
     font-family: 'Raleway-Bold';
     font-size: 40px;
@@ -314,9 +321,9 @@ nav ul li a{
     margin-top: 0px;
 }
 
-.updates-text{
+.updates-text {
     font-size: 17px;
-    color:#000000 ;    
+    color: #000000;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -328,44 +335,42 @@ nav ul li a{
 }
 
 
-.listing-container{
+.listing-container {
     width: 80%;
     display: block;
     margin: auto;
     margin-top: 100px;
 }
 
-.list-item{
+.list-item {
     display: flex;
     margin-bottom: 30px;
 }
 
-.list-item .description-item{
-    margin-left: 30px;
-    text-align: left;
-    font-size: 15px;
-    font-family: 'Raleway-Regular';
-    line-height: 24px;
-   
-}
+    .list-item .description-item {
+        margin-left: 30px;
+        text-align: left;
+        font-size: 15px;
+        font-family: 'Raleway-Regular';
+        line-height: 24px;
+    }
 
-.list-item .description-item h3{
-    font-family: 'Raleway-Bold';
-    font-size: 20px;
-}
+        .list-item .description-item h3 {
+            font-family: 'Raleway-Bold';
+            font-size: 20px;
+        }
 
-.list-item .description-item a{
- color: #004579;
- cursor: pointer;
- 
-}
+        .list-item .description-item a {
+            color: #004579;
+            cursor: pointer;
+        }
 
-.list-item img{
-    border: 2px solid rgba(179, 199, 215, 1);
-    padding: 4px;
-}
+    .list-item img {
+        border: 2px solid rgba(179, 199, 215, 1);
+        padding: 4px;
+    }
 
-.pdf-icon{
+.pdf-icon {
     width: 30px;
     height: 30px;
     background-image: url('../img/pdf.png');
@@ -374,7 +379,7 @@ nav ul li a{
     background-repeat: no-repeat;
 }
 
-.curved-bottom-light{
+.curved-bottom-light {
     background-image: url('../img/curved-bottom.png');
     height: 85px;
     width: 100%;
@@ -383,61 +388,59 @@ nav ul li a{
     background-repeat: no-repeat;
 }
 
-.press-release-section{
-    background-color: #004579;    
+.press-release-section {
+    background-color: #004579;
     padding: 0px 250px 120px 250px;
     color: #fff;
     margin-top: -5px;
     padding-top: 85px;
 }
 
-.press-release-section .section-title{
-    
-    font-size: 40px;
-    font-family: 'Raleway-Bold';
-    margin-top: 0px;
+    .press-release-section .section-title {
+        font-size: 40px;
+        font-family: 'Raleway-Bold';
+        margin-top: 0px;
+    }
 
-}
-
-.press-release-section .bottom-line-span{
-    margin: initial;
-}
+    .press-release-section .bottom-line-span {
+        margin: initial;
+    }
 
 
-.press-release-section .section-subtitle{
-    font-family: 'Raleway-Bold';
-    font-size: 20px;
+    .press-release-section .section-subtitle {
+        font-family: 'Raleway-Bold';
+        font-size: 20px;
+    }
 
-}
+    .press-release-section p {
+        font-family: 'Raleway-Regular';
+        font-size: 15px;
+    }
 
-.press-release-section p{
-    font-family: 'Raleway-Regular';    
-    font-size: 15px;
-}
-.italic{
+.italic {
     font-family: 'Raleway-Italic' !important;
     font-style: italic;
     font-size: 15px;
 }
 
-.press-release-text{
+.press-release-text {
     line-height: 24px;
 }
 
-footer{
+footer {
     background-color: #002541;
     padding-bottom: 50px;
 }
 
-.logo-footer{
+.logo-footer {
     width: 120px;
     margin: auto;
     display: block;
     margin-bottom: 50px;
 }
 
-.people{
-    display: flex;    
+.people {
+    display: flex;
     width: 800px;
     font-family: 'Raleway-Regular';
     font-size: 15px;
@@ -445,35 +448,36 @@ footer{
     margin: auto;
     text-align: center;
     margin-bottom: 100px;
-    
 }
 
 
-.person{
+.person {
     width: 50%;
 }
 
-.person:nth-child(1){
-    border-right: 2px solid rgba(255, 255, 255, 0.2);
-}
-.person p{
-    margin-bottom: 10px;
-    margin-top: 0px;
-}
+    .person:nth-child(1) {
+        border-right: 2px solid rgba(255, 255, 255, 0.2);
+    }
 
-.person .name{
-    font-family: 'Raleway-Bold';
-}
+    .person p {
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
 
-.person a{
-    color: #fff;
-    text-decoration: none;
-}
-.mobile-line{
+    .person .name {
+        font-family: 'Raleway-Bold';
+    }
+
+    .person a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.mobile-line {
     display: none;
 }
 
-.copy-legend{
+.copy-legend {
     font-size: 13px;
     font-family: 'Raleway-Regular';
     text-align: center;
@@ -481,7 +485,7 @@ footer{
     margin-bottom: 0px;
 }
 
-.buy-now{
+.buy-now {
     cursor: pointer;
     text-decoration: none;
 }
@@ -489,149 +493,150 @@ footer{
 
 /*Mobile */
 
-@media only screen and (max-width: 780px){
+@media only screen and (max-width: 780px) {
 
-    nav{
+    nav {
         display: none;
     }
 
-    .landing-page{
+    .landing-page {
         background-size: contain;
         padding-top: 10px;
         background-position: initial;
         padding-bottom: 65px;
     }
-    .landing-page .logo{
-        width: 100px;
-    }
 
-    .landing-page .main-title{
-        
-        margin-top: 150px;     
-        font-size: 40px;       
-        max-width: 220px;
-    }
+        .landing-page .logo {
+            width: 100px;
+        }
 
-    .secondary-hero .secondary-titles-container h1{
+        .landing-page .main-title {
+            margin-top: 150px;
+            font-size: 40px;
+            max-width: 220px;
+        }
+
+    .secondary-hero .secondary-titles-container h1 {
         font-size: 40px;
     }
 
-    .secondary-hero .secondary-titles-container h3{
+    .secondary-hero .secondary-titles-container h3 {
         font-size: 25px;
     }
 
-    .landing-page span{
+    .landing-page span {
         height: 13px;
     }
 
-    .landing-page .featured-text-container{
+    .landing-page .featured-text-container {
         /* background-color: #004579; */
         padding-top: 20px;
     }
-    .landing-page .featured-text{
+
+    .landing-page .featured-text {
         text-align: center;
         font-size: 18px;
         width: 228px;
         margin-top: 0px;
-        
     }
 
-    .landing-page .video-container{
+    .landing-page .video-container {
         max-width: 80%;
-        
     }
 
-    .landing-page .video-container iframe{
-        height: 211px;
-    }
+        .landing-page .video-container iframe {
+            height: 211px;
+        }
 
-    .pricing-section{
+    .pricing-section {
         padding-top: 45px;
         padding-bottom: 30px;
     }
-    .pricing-text{
-        width: 80%;
-        
-    }
 
-    .pricing-table{
+    .pricing-text {
         width: 80%;
     }
 
-    .pricing-legend{
+    .pricing-table {
         width: 80%;
     }
-    .updates-section .padding-div{
+
+    .pricing-legend {
+        width: 80%;
+    }
+
+    .updates-section .padding-div {
         padding: 45px 50px 35px 50px;
     }
 
-    .curved-bottom-light{
+    .curved-bottom-light {
         background-size: contain;
         height: 71px;
     }
 
-    .circle-top{
+    .circle-top {
         background-size: contain;
     }
-    
-    .circle-bottom{
+
+    .circle-bottom {
         background-size: contain;
         height: 4vh;
     }
-    .press-release-section{
+
+    .press-release-section {
         padding: 45px 50px 45px 50px;
         margin-top: -5px;
     }
-    .listing-container{
+
+    .listing-container {
         width: 100%;
         display: block;
     }
 
-    .list-item{
+    .list-item {
         display: block;
     }
 
-    .list-item img{
-        width: 100%;
-       
-    }
+        .list-item img {
+            width: 100%;
+        }
 
-    .latest-update-title{
+    .latest-update-title {
         font-size: 25px;
     }
 
-    .press-release-section .section-title{
+    .press-release-section .section-title {
         font-size: 25px;
     }
 
-    .press-release-section .section-subtitle{
+    .press-release-section .section-subtitle {
         font-size: 16px;
         line-height: 22px;
     }
 
-    .press-release-section p{
+    .press-release-section p {
         line-height: 22px;
     }
 
-    .logo-footer{
+    .logo-footer {
         margin-top: 30px;
-
     }
-    .people{
+
+    .people {
         width: 80%;
         display: block;
-        
     }
-    .person{
+
+    .person {
         width: 100%;
-        
     }
 
-    .person:nth-child(1){
-        border-right: none;       
-    }
+        .person:nth-child(1) {
+            border-right: none;
+            fa
+        }
 
-    .mobile-line{
+    .mobile-line {
         display: block;
         width: 35%;
         margin: auto;
@@ -641,4 +646,18 @@ footer{
     }
 }
 
+button {
+    cursor: pointer;
+}
 
+    button:focus {
+        outline: none !important;
+    }
+
+.BUTTON-checkout_summary {
+    margin-left: 25%;
+}
+
+.fa-shopping-cart {
+    font-size: 27px !important;
+}
