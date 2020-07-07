@@ -279,6 +279,8 @@ nav {
     border: none;
     width: 170%;
     height: 30px;
+    position: relative;
+    left: -17px;
 }
 
 .buy-now:hover {
@@ -661,3 +663,4 @@ button {
 .fa-shopping-cart {
     font-size: 27px !important;
 }
+
