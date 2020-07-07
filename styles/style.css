@@ -494,31 +494,47 @@ footer {
     text-decoration: none;
 }
 
-
 /*Mobile */
 
 @media only screen and (max-width: 780px) {
 
     nav {
-        display: none;
+        /*display: none;*/
+        /*background: transparent;*/
+        height: 59px;
     }
 
     .landing-page {
-        background-size: contain;
-        padding-top: 10px;
-        background-position: initial;
-        padding-bottom: 65px;
+        background-position: 0px 53px;
     }
 
-        .landing-page .logo {
-            width: 100px;
-        }
+    .mobileHide {
+        display: none;
+    }
 
-        .landing-page .main-title {
-            margin-top: 150px;
-            font-size: 40px;
-            max-width: 220px;
-        }
+    .BUTTON-cartButton {
+        position: fixed !important;
+        top: 3%;
+        left: 85%;
+    }
+
+    .BUTTON-checkout_summary {
+        width: 90% !important;
+    }
+
+    .buy-now-xs {
+        width: 170%;
+    }
+
+    .landing-page .logo {
+        width: 100px;
+    }
+
+    .landing-page .main-title {
+        margin-top: 150px;
+        font-size: 40px;
+        max-width: 220px;
+    }
 
     .secondary-hero .secondary-titles-container h1 {
         font-size: 40px;
@@ -637,7 +653,6 @@ footer {
 
         .person:nth-child(1) {
             border-right: none;
-            fa
         }
 
     .mobile-line {
