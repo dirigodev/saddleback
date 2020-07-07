@@ -324,7 +324,10 @@ nav {
     text-align: center;
     margin-top: 0px;
 }
-
+.pay-by-check {
+  
+    margin-top: 100px!important;
+}
 .updates-text {
     font-size: 17px;
     color: #000000;
