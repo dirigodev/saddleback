@@ -526,7 +526,8 @@ footer {
     }
 
     .buy-now-xs {
-        width: 170%;
+        width: 129%;
+        height: 40px;
     }
 
     .landing-page .logo {
