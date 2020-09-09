@@ -642,6 +642,17 @@ footer {
         line-height: 22px;
     }
 
+
+    .purchase-conditions-section {
+        padding: 0px 250px 120px 52px !important;
+        width: 100%;
+        margin-top: 0px!important;
+    }
+    .purchase-conditions-section p {
+        line-height: 22px;
+        width: 80%;
+    }
+
     .logo-footer {
         margin-top: 30px;
     }
