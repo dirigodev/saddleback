@@ -24,7 +24,14 @@ body {
 }
 
 
-nav {
+#calendar-container {
+    width: 50%;
+    margin-left: 30%;
+}
+.BUTTON-tickets {
+    display: block !important;
+}
+    nav {
     background-color: #002541;
     max-height: 75px;
     height: 75px;
